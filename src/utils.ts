@@ -79,11 +79,11 @@ function networkHelperConstructor(): NetworkHelper {
 }
 
 function createShortNetworkNames(): string[] {
-  let shortNetworks: string[] = []
+  let shortNetworks: string[] = [];
   for (const key of supportedNetworks) {
-    shortNetworks.push(networks[key].shortKey)
+    shortNetworks.push(networks[key].shortKey);
   }
-  return shortNetworks
+  return shortNetworks;
 }
 
 export const supportedShortNetworks: string[] = createShortNetworkNames();

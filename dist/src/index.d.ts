@@ -9,6 +9,7 @@ import {
   getNetworkByHolographId,
   getNetworkByLzId,
   supportedNetworks,
+  supportedShortNetworks,
 } from './utils';
 export {
   NetworkType,
@@ -24,5 +25,6 @@ export {
   getNetworkByHolographId,
   getNetworkByLzId,
   supportedNetworks,
+  supportedShortNetworks,
 };
 //# sourceMappingURL=index.d.ts.map

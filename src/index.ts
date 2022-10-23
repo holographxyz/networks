@@ -9,6 +9,7 @@ import {
   getNetworkByHolographId,
   getNetworkByLzId,
   supportedNetworks,
+  supportedShortNetworks,
 } from './utils';
 
 export {

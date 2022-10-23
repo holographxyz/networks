@@ -5,6 +5,7 @@ exports.getNetworkByLzId =
   exports.getNetworkByChainId =
   exports.getNetworkByShortKey =
   exports.getNetworkByKey =
+  exports.supportedShortNetworks =
   exports.supportedNetworks =
   exports.getSupportedNetworks =
     void 0;
@@ -76,6 +77,14 @@ function networkHelperConstructor() {
   }
   return helper;
 }
+function createShortNetworkNames() {
+  let shortNetworks = [];
+  for (const key of exports.supportedNetworks) {
+    shortNetworks.push(networks_1.networks[key].shortKey);
+  }
+  return shortNetworks;
+}
+exports.supportedShortNetworks = createShortNetworkNames();
 const networkHelper = networkHelperConstructor();
 function getNetworkByKey(key) {
   if (!(key in networkHelper.byKey)) {

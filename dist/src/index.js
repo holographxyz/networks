@@ -1,6 +1,7 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-exports.supportedNetworks =
+exports.supportedShortNetworks =
+  exports.supportedNetworks =
   exports.getNetworkByLzId =
   exports.getNetworkByHolographId =
   exports.getNetworkByChainId =
@@ -65,6 +66,12 @@ Object.defineProperty(exports, 'supportedNetworks', {
   enumerable: true,
   get: function () {
     return utils_1.supportedNetworks;
+  },
+});
+Object.defineProperty(exports, 'supportedShortNetworks', {
+  enumerable: true,
+  get: function () {
+    return utils_1.supportedShortNetworks;
   },
 });
 //# sourceMappingURL=index.js.map

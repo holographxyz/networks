@@ -30,10 +30,10 @@
   resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.7.0.tgz#6ce9ae168e74fecf287be17062b590852c311892"
   integrity sha512-0odtFdXu/XHtjQXJYA3u9G0G8btm0ND5Cu8M7i5vhEcE8/HmF4Lbdqanwyv4uQTr2tx6b7fQRmgLrsnpQlmnig==
 
-"@holographxyz/environment@0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@holographxyz/environment/-/environment-0.1.8.tgz#69f78f7611414ad2904b822045aa9a093d50104e"
-  integrity sha512-1xKu9pI7t5TlmjXKlkQkv+TjQWNzPTDibX2UPfMVcm3GyGRm614r9IWTyM5ykF0sA3Pox67wRmByTRKGEWFbOg==
+"@holographxyz/environment@0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@holographxyz/environment/-/environment-0.1.10.tgz#273d79c1f6461c1848625624b960e0860a888e9b"
+  integrity sha512-NTT0eWmQRTTSTzuuYUE16T+AWI7FYNwGYOhzusnCZO4v0hiKIWEgR9upaUzYBIsn4RHjq0Zucw49LJW6ZSZIwA==
   dependencies:
     dotenv "^10.0.0"
     path "^0.12.7"

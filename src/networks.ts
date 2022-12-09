@@ -329,7 +329,7 @@ export const networks: Networks = {
     tokenSymbol: 'BNB',
     explorer: 'https://bscscan.com',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
-    lzId: 0,
+    lzId: 102,
     active: true,
   } as Network,
   avalanche: {
@@ -343,7 +343,7 @@ export const networks: Networks = {
     tokenSymbol: 'AVAX',
     explorer: 'https://snowtrace.io',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
-    lzId: 0,
+    lzId: 106,
     active: true,
   } as Network,
   polygon: {
@@ -357,7 +357,7 @@ export const networks: Networks = {
     tokenSymbol: 'MATIC',
     explorer: 'https://polygonscan.com',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
-    lzId: 0,
+    lzId: 109,
     active: true,
   } as Network,
   fantom: {
@@ -371,7 +371,7 @@ export const networks: Networks = {
     tokenSymbol: 'FTM',
     explorer: 'https://ftmscan.com',
     lzEndpoint: '0xb6319cC6c8c27A8F5dAF0dD3DF91EA35C4720dd7'.toLowerCase(),
-    lzId: 0,
+    lzId: 112,
     active: false,
   } as Network,
   arbitrum: {
@@ -385,7 +385,7 @@ export const networks: Networks = {
     tokenSymbol: 'ETH',
     explorer: 'https://arbiscan.io',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
-    lzId: 0,
+    lzId: 110,
     active: false,
   } as Network,
   optimism: {
@@ -399,7 +399,7 @@ export const networks: Networks = {
     tokenSymbol: 'ETH',
     explorer: 'https://optimistic.etherscan.io',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
-    lzId: 0,
+    lzId: 111,
     active: false,
   } as Network,
   gnosis: {
@@ -412,8 +412,8 @@ export const networks: Networks = {
     tokenName: 'Gnosis Chain',
     tokenSymbol: 'GNO',
     explorer: 'https://gnosisscan.io',
-    lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
-    lzId: 0,
+    lzEndpoint: '0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4'.toLowerCase(),
+    lzId: 145,
     active: false,
   } as Network,
   cronos: {
@@ -482,8 +482,8 @@ export const networks: Networks = {
     tokenName: 'Celo',
     tokenSymbol: 'CELO',
     explorer: 'https://explorer.celo.org/mainnet',
-    lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
-    lzId: 0,
+    lzEndpoint: '0x3A73033C0b1407574C76BdBAc67f126f6b4a9AA9'.toLowerCase(),
+    lzId: 125,
     active: false,
   } as Network,
   swimmer: {

@@ -12,6 +12,7 @@ export interface Network {
   lzEndpoint: string;
   lzId: number;
   active: boolean;
+  protocolMultisig: string | undefined;
 }
 export interface Networks {
   [key: string]: Network;

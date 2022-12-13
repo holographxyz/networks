@@ -19,6 +19,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   localhost: {
     type: NetworkType.local,
@@ -33,6 +34,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 65535,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   localhost2: {
     type: NetworkType.local,
@@ -47,6 +49,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 65534,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   // TEST NETWORKS
   celoTestneAlfajorest: {
@@ -62,6 +65,7 @@ export const networks: Networks = {
     lzEndpoint: '0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1'.toLowerCase(),
     lzId: 10125,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   moonbeamTestnet: {
     type: NetworkType.testnet,
@@ -76,6 +80,7 @@ export const networks: Networks = {
     lzEndpoint: '0xb23b28012ee92E8dE39DEb57Af31722223034747'.toLowerCase(),
     lzId: 10126,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   harmonyTestnet: {
     type: NetworkType.testnet,
@@ -90,6 +95,7 @@ export const networks: Networks = {
     lzEndpoint: '0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1'.toLowerCase(),
     lzId: 10133,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   optimismTestnetGoerli: {
     type: NetworkType.testnet,
@@ -104,6 +110,7 @@ export const networks: Networks = {
     lzEndpoint: '0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1'.toLowerCase(),
     lzId: 10132,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   arbitrumTestnetGoerli: {
     type: NetworkType.testnet,
@@ -118,6 +125,7 @@ export const networks: Networks = {
     lzEndpoint: '0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab'.toLowerCase(),
     lzId: 10143,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   auroraTestnet: {
     type: NetworkType.testnet,
@@ -132,6 +140,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   cronosTestnet: {
     type: NetworkType.testnet,
@@ -146,6 +155,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   ethereumTestnetGoerli: {
     type: NetworkType.testnet,
@@ -160,6 +170,7 @@ export const networks: Networks = {
     lzEndpoint: '0xbfD2135BFfbb0B5378b56643c2Df8a87552Bfa23'.toLowerCase(),
     lzId: 10121,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   ethereumTestnetKovan: {
     type: NetworkType.testnet,
@@ -174,6 +185,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   ethereumTestnetRopsten: {
     type: NetworkType.testnet,
@@ -189,6 +201,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   gnosisTestnetSokol: {
     type: NetworkType.testnet,
@@ -203,6 +216,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   optimismTestnetKovan: {
     type: NetworkType.testnet,
@@ -217,6 +231,7 @@ export const networks: Networks = {
     lzEndpoint: '0x72aB53a133b27Fa428ca7Dc263080807AfEc91b5'.toLowerCase(),
     lzId: 10111,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   arbitrumTestnetRinkeby: {
     type: NetworkType.testnet,
@@ -231,6 +246,7 @@ export const networks: Networks = {
     lzEndpoint: '0x4D747149A57923Beb89f22E6B7B97f7D8c087A00'.toLowerCase(),
     lzId: 10110,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   fantomTestnet: {
     type: NetworkType.testnet,
@@ -245,6 +261,7 @@ export const networks: Networks = {
     lzEndpoint: '0x7dcAD72640F835B0FA36EFD3D6d3ec902C7E5acf'.toLowerCase(),
     lzId: 10112,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   polygonTestnet: {
     type: NetworkType.testnet,
@@ -259,6 +276,7 @@ export const networks: Networks = {
     lzEndpoint: '0xf69186dfBa60DdB133E91E9A4B5673624293d8F8'.toLowerCase(),
     lzId: 10109,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   avalancheTestnet: {
     type: NetworkType.testnet,
@@ -273,6 +291,7 @@ export const networks: Networks = {
     lzEndpoint: '0x93f54D755A063cE7bB9e6Ac47Eccc8e33411d706'.toLowerCase(),
     lzId: 10106,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   binanceSmartChainTestnet: {
     type: NetworkType.testnet,
@@ -287,6 +306,7 @@ export const networks: Networks = {
     lzEndpoint: '0x6Fcb97553D41516Cb228ac03FdC8B9a0a9df04A1'.toLowerCase(),
     lzId: 10102,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   ethereumTestnetRinkeby: {
     type: NetworkType.testnet,
@@ -302,6 +322,7 @@ export const networks: Networks = {
     lzEndpoint: '0x79a63d6d8BBD5c6dfc774dA79bCcD948EAcb53FA'.toLowerCase(),
     lzId: 10101,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   // LIVE NETWORKS
   ethereum: {
@@ -317,6 +338,7 @@ export const networks: Networks = {
     lzEndpoint: '0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675'.toLowerCase(),
     lzId: 101,
     active: true,
+    protocolMultisig: '0x99102e9bf378AE777e16D5f1D2D8Ff89b066c5af'.toLowerCase(),
   } as Network,
   binanceSmartChain: {
     type: NetworkType.mainnet,
@@ -331,6 +353,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 102,
     active: true,
+    protocolMultisig: undefined,
   } as Network,
   avalanche: {
     type: NetworkType.mainnet,
@@ -345,6 +368,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 106,
     active: true,
+    protocolMultisig: '0x569FcF96b09d228918721E33D46C6ca58302B247'.toLowerCase(),
   } as Network,
   polygon: {
     type: NetworkType.mainnet,
@@ -359,6 +383,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 109,
     active: true,
+    protocolMultisig: '0xCD2Ec32814f28622533ffcc9131F0D7B2c2CF038'.toLowerCase(),
   } as Network,
   fantom: {
     type: NetworkType.mainnet,
@@ -373,6 +398,7 @@ export const networks: Networks = {
     lzEndpoint: '0xb6319cC6c8c27A8F5dAF0dD3DF91EA35C4720dd7'.toLowerCase(),
     lzId: 112,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   arbitrum: {
     type: NetworkType.mainnet,
@@ -387,6 +413,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 110,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   optimism: {
     type: NetworkType.mainnet,
@@ -401,6 +428,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 111,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   gnosis: {
     type: NetworkType.mainnet,
@@ -415,6 +443,7 @@ export const networks: Networks = {
     lzEndpoint: '0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4'.toLowerCase(),
     lzId: 145,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   cronos: {
     type: NetworkType.mainnet,
@@ -429,6 +458,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   aurora: {
     type: NetworkType.mainnet,
@@ -443,6 +473,7 @@ export const networks: Networks = {
     lzEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
     lzId: 0,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   harmony: {
     type: NetworkType.mainnet,
@@ -457,6 +488,7 @@ export const networks: Networks = {
     lzEndpoint: '0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4'.toLowerCase(),
     lzId: 116,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   moonbeam: {
     type: NetworkType.mainnet,
@@ -471,6 +503,7 @@ export const networks: Networks = {
     lzEndpoint: '0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4'.toLowerCase(),
     lzId: 126,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   celo: {
     type: NetworkType.mainnet,
@@ -485,6 +518,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3A73033C0b1407574C76BdBAc67f126f6b4a9AA9'.toLowerCase(),
     lzId: 125,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   swimmer: {
     type: NetworkType.mainnet,
@@ -499,6 +533,7 @@ export const networks: Networks = {
     lzEndpoint: '0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4'.toLowerCase(),
     lzId: 114,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
   dfk: {
     type: NetworkType.mainnet,
@@ -513,5 +548,6 @@ export const networks: Networks = {
     lzEndpoint: '0x9740FF91F1985D8d2B71494aE1A2f723bb3Ed9E4'.toLowerCase(),
     lzId: 115,
     active: false,
+    protocolMultisig: undefined,
   } as Network,
 };

@@ -52,9 +52,9 @@ export const networks: Networks = {
     protocolMultisig: undefined,
   } as Network,
   // TEST NETWORKS
-  celoTestneAlfajorest: {
+  celoTestnetAlfajorest: {
     type: NetworkType.testnet,
-    key: 'celoTestneAlfajorest',
+    key: 'celoTestnetAlfajorest',
     shortKey: 'celoTestnet',
     chain: 44787,
     rpc: process.env.CELO_TESTNET_ALFAJORES_RPC_URL || 'https://alfajores-forno.celo-testnet.org',

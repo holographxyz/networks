@@ -170,7 +170,7 @@ export const networks: Networks = {
     lzEndpoint: '0xbfD2135BFfbb0B5378b56643c2Df8a87552Bfa23'.toLowerCase(),
     lzId: 10121,
     active: true,
-    protocolMultisig: undefined,
+    protocolMultisig: '0xcb5E71E000288e2648Bb0E7b67D3f2850e56EF67'.toLowerCase(),
   } as Network,
   ethereumTestnetKovan: {
     type: NetworkType.testnet,

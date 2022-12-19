@@ -1,9 +1,10 @@
 import { NetworkType } from './src/network-type';
 
 export interface Network {
+  name: string;
+  type: NetworkType;
   key: string;
   shortKey: string;
-  type: NetworkType;
   chain: number;
   rpc: string;
   holographId: number;

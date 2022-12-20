@@ -1191,7 +1191,7 @@ export const networks: Networks = {
     explorer: 'https://bscscan.com',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 102,
-    active: true,
+    active: false,
     protocolMultisig: undefined,
   } as Network,
   avalanche: {

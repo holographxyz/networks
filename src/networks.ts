@@ -1014,7 +1014,7 @@ export const networks: Networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
-    depreceated: true,
+    depreciated: true,
   } as Network,
   ethereumTestnetRopsten: {
     name: '',
@@ -1032,7 +1032,7 @@ export const networks: Networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
-    depreceated: true,
+    depreciated: true,
   } as Network,
   gnosisTestnetSokol: {
     name: 'Gnosis Chain Sokol',
@@ -1065,7 +1065,7 @@ export const networks: Networks = {
     lzId: 10111,
     active: false,
     protocolMultisig: undefined,
-    depreceated: true,
+    depreciated: true,
   } as Network,
   arbitrumTestnetRinkeby: {
     name: 'Arbitrum Rinkeby',
@@ -1082,7 +1082,7 @@ export const networks: Networks = {
     lzId: 10110,
     active: false,
     protocolMultisig: undefined,
-    depreceated: true,
+    depreciated: true,
   } as Network,
   fantomTestnet: {
     name: 'Fantom Testnet',
@@ -1164,7 +1164,7 @@ export const networks: Networks = {
     lzId: 10101,
     active: true,
     protocolMultisig: undefined,
-    depreceated: true,
+    depreciated: true,
   } as Network,
   // LIVE NETWORKS
   ethereum: {

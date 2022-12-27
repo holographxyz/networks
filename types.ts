@@ -15,7 +15,7 @@ export interface Network {
   lzId: number;
   active: boolean;
   protocolMultisig: string | undefined;
-  depreceated?: boolean;
+  depreciated?: boolean;
 }
 
 export interface Networks {

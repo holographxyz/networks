@@ -58,8 +58,8 @@ export const networks: Networks = {
   kekChainTestnet: {
     name: 'KeKchain Testnet',
     type: NetworkType.testnet,
-    key: 'keKchainTestnet',
-    shortKey: 'keKchainTestnet',
+    key: 'kekChainTestnet',
+    shortKey: 'kekChainTestnet',
     chain: 420666,
     rpc: process.env.KEK_CHAIN_TESTNET_RPC_URL || 'https://testnet.kekchain.com',
     holographId: 4000000069,
@@ -1014,6 +1014,7 @@ export const networks: Networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
+    depreceated: true,
   } as Network,
   ethereumTestnetRopsten: {
     name: '',
@@ -1031,6 +1032,7 @@ export const networks: Networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
+    depreceated: true,
   } as Network,
   gnosisTestnetSokol: {
     name: 'Gnosis Chain Sokol',
@@ -1063,6 +1065,7 @@ export const networks: Networks = {
     lzId: 10111,
     active: false,
     protocolMultisig: undefined,
+    depreceated: true,
   } as Network,
   arbitrumTestnetRinkeby: {
     name: 'Arbitrum Rinkeby',
@@ -1079,6 +1082,7 @@ export const networks: Networks = {
     lzId: 10110,
     active: false,
     protocolMultisig: undefined,
+    depreceated: true,
   } as Network,
   fantomTestnet: {
     name: 'Fantom Testnet',
@@ -1160,6 +1164,7 @@ export const networks: Networks = {
     lzId: 10101,
     active: true,
     protocolMultisig: undefined,
+    depreceated: true,
   } as Network,
   // LIVE NETWORKS
   ethereum: {

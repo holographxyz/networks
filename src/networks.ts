@@ -58,8 +58,8 @@ export const networks: Networks = {
   kekChainTestnet: {
     name: 'KeKchain Testnet',
     type: NetworkType.testnet,
-    key: 'keKchainTestnet',
-    shortKey: 'keKchainTestnet',
+    key: 'kekChainTestnet',
+    shortKey: 'kekChainTestnet',
     chain: 420666,
     rpc: process.env.KEK_CHAIN_TESTNET_RPC_URL || 'https://testnet.kekchain.com',
     holographId: 4000000069,
@@ -1014,6 +1014,7 @@ export const networks: Networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
+    deprecated: true,
   } as Network,
   ethereumTestnetRopsten: {
     name: '',
@@ -1031,6 +1032,7 @@ export const networks: Networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
+    deprecated: true,
   } as Network,
   gnosisTestnetSokol: {
     name: 'Gnosis Chain Sokol',
@@ -1063,6 +1065,7 @@ export const networks: Networks = {
     lzId: 10111,
     active: false,
     protocolMultisig: undefined,
+    deprecated: true,
   } as Network,
   arbitrumTestnetRinkeby: {
     name: 'Arbitrum Rinkeby',
@@ -1079,6 +1082,7 @@ export const networks: Networks = {
     lzId: 10110,
     active: false,
     protocolMultisig: undefined,
+    deprecated: true,
   } as Network,
   fantomTestnet: {
     name: 'Fantom Testnet',
@@ -1158,8 +1162,9 @@ export const networks: Networks = {
     explorer: 'https://rinkeby.etherscan.io',
     lzEndpoint: '0x79a63d6d8BBD5c6dfc774dA79bCcD948EAcb53FA'.toLowerCase(),
     lzId: 10101,
-    active: true,
+    active: false,
     protocolMultisig: undefined,
+    deprecated: true,
   } as Network,
   // LIVE NETWORKS
   ethereum: {

@@ -1019,7 +1019,7 @@ exports.networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
-    depreciated: true,
+    deprecated: true,
   },
   ethereumTestnetRopsten: {
     name: '',
@@ -1037,7 +1037,7 @@ exports.networks = {
     lzId: 0,
     active: false,
     protocolMultisig: undefined,
-    depreciated: true,
+    deprecated: true,
   },
   gnosisTestnetSokol: {
     name: 'Gnosis Chain Sokol',
@@ -1070,7 +1070,7 @@ exports.networks = {
     lzId: 10111,
     active: false,
     protocolMultisig: undefined,
-    depreciated: true,
+    deprecated: true,
   },
   arbitrumTestnetRinkeby: {
     name: 'Arbitrum Rinkeby',
@@ -1087,7 +1087,7 @@ exports.networks = {
     lzId: 10110,
     active: false,
     protocolMultisig: undefined,
-    depreciated: true,
+    deprecated: true,
   },
   fantomTestnet: {
     name: 'Fantom Testnet',
@@ -1169,7 +1169,7 @@ exports.networks = {
     lzId: 10101,
     active: false,
     protocolMultisig: undefined,
-    depreciated: true,
+    deprecated: true,
   },
   // LIVE NETWORKS
   ethereum: {

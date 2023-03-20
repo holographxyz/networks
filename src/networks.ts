@@ -1145,7 +1145,7 @@ export const networks: Networks = {
     explorer: 'https://testnet.bscscan.com',
     lzEndpoint: '0x6Fcb97553D41516Cb228ac03FdC8B9a0a9df04A1'.toLowerCase(),
     lzId: 10102,
-    active: false,
+    active: true,
     protocolMultisig: undefined,
   } as Network,
   ethereumTestnetRinkeby: {
@@ -1196,7 +1196,7 @@ export const networks: Networks = {
     explorer: 'https://bscscan.com',
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 102,
-    active: false,
+    active: true,
     protocolMultisig: undefined,
   } as Network,
   avalanche: {

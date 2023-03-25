@@ -935,7 +935,7 @@ exports.networks = {
         explorer: 'https://goerli-optimism.etherscan.io',
         lzEndpoint: '0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1'.toLowerCase(),
         lzId: 10132,
-        active: false,
+        active: true,
         protocolMultisig: undefined,
     },
     arbitrumTestnetGoerli: {
@@ -951,7 +951,7 @@ exports.networks = {
         explorer: 'https://goerli.arbiscan.io',
         lzEndpoint: '0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab'.toLowerCase(),
         lzId: 10143,
-        active: false,
+        active: true,
         protocolMultisig: undefined,
     },
     auroraTestnet: {
@@ -1138,7 +1138,7 @@ exports.networks = {
         name: 'BNB Testnet',
         type: network_type_1.NetworkType.testnet,
         key: 'binanceSmartChainTestnet',
-        shortKey: 'bscTestnet',
+        shortKey: 'bnbTestnet',
         chain: 97,
         rpc: process.env.BINANCE_SMART_CHAIN_TESTNET_RPC_URL || 'https://data-seed-prebsc-1-s1.binance.org:8545',
         holographId: 4000000002,
@@ -1188,7 +1188,7 @@ exports.networks = {
         name: 'BNB',
         type: network_type_1.NetworkType.mainnet,
         key: 'binanceSmartChain',
-        shortKey: 'bsc',
+        shortKey: 'bnb',
         chain: 56,
         rpc: process.env.BINANCE_SMART_CHAIN_RPC_URL || 'https://bsc-dataseed1.binance.org',
         holographId: 2,
@@ -1261,7 +1261,7 @@ exports.networks = {
         explorer: 'https://arbiscan.io',
         lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
         lzId: 110,
-        active: false,
+        active: true,
         protocolMultisig: undefined,
     },
     optimism: {
@@ -1277,7 +1277,7 @@ exports.networks = {
         explorer: 'https://optimistic.etherscan.io',
         lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
         lzId: 111,
-        active: false,
+        active: true,
         protocolMultisig: undefined,
     },
     gnosis: {

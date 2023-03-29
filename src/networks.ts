@@ -1197,7 +1197,7 @@ export const networks: Networks = {
     lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
     lzId: 102,
     active: true,
-    protocolMultisig: undefined,
+    protocolMultisig: '0x38F8e3aF2F385B871011CDdFE16099e64846C420'.toLowerCase(),
   } as Network,
   avalanche: {
     name: 'Avalanche',

@@ -1278,7 +1278,7 @@ exports.networks = {
         lzEndpoint: '0x3c2269811836af69497E5F486A85D7316753cf62'.toLowerCase(),
         lzId: 111,
         active: true,
-        protocolMultisig: undefined,
+        protocolMultisig: '0xa2D6193763A9B327Db7c74C766713927745f2a4c'.toLowerCase(),
     },
     gnosis: {
         name: 'Gnosis Chain',

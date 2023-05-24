@@ -1,6 +1,6 @@
 {
   "name": "@holographxyz/networks",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "Holograph Protocol",
   "license": "SEE LICENSE IN LICENSE.md",
   "author": "@holographxyz",
@@ -28,6 +28,7 @@
     "sample.env"
   ],
   "scripts": {
+    "postinstall": "yarn build",
     "build": "tsc --build",
     "prettier:check": "prettier --loglevel error --ignore-path .gitignore --list-different .",
     "prettier:fix": "prettier --loglevel error --ignore-path .gitignore --write ."

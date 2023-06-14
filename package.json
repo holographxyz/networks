@@ -28,7 +28,6 @@
     "sample.env"
   ],
   "scripts": {
-    "postinstall": "yarn build",
     "build": "tsc --build",
     "prettier:check": "prettier --loglevel error --ignore-path .gitignore --list-different .",
     "prettier:fix": "prettier --loglevel error --ignore-path .gitignore --write ."

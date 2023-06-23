@@ -4,6 +4,7 @@ export interface Network {
     type: NetworkType;
     key: string;
     shortKey: string;
+    color: string;
     chain: number;
     rpc: string;
     holographId: number;

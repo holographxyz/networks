@@ -160,7 +160,7 @@ exports.networks = {
         ccipEndpoint: '0x0bf3de8c5d3e8a2b34d2beeb17abfcebaf363a59'.toLowerCase(),
         ccipId: '16015286601757825753',
         active: true,
-        protocolMultisig: '0x0000000000000000000000000000000000000000'.toLowerCase(),
+        protocolMultisig: '0x8FE61F653450051cEcbae12475BA2b8fbA628c7A'.toLowerCase(),
     },
     baseTestnetGoerli: {
         name: 'Base Goerli Testnet',
@@ -217,7 +217,7 @@ exports.networks = {
         ccipEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
         ccipId: 0,
         active: true,
-        protocolMultisig: undefined,
+        protocolMultisig: '0x87Ef913A4D2D7B1d31782E6635A1172371E98123'.toLowerCase(),
     },
     kekChainTestnet: {
         name: 'KeKchain Testnet',
@@ -1555,7 +1555,7 @@ exports.networks = {
         ccipEndpoint: '0xE561d5E02207fb5eB32cca20a699E0d8919a1476'.toLowerCase(),
         ccipId: '5009297550715157269',
         active: true,
-        protocolMultisig: '0x99102e9bf378AE777e16D5f1D2D8Ff89b066c5af'.toLowerCase(),
+        protocolMultisig: '0x67EBef315c8aA6be5a0840D0FD0BAEC25E6f92aa'.toLowerCase(),
     },
     binanceSmartChain: {
         name: 'BNB',
@@ -1574,7 +1574,7 @@ exports.networks = {
         ccipEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
         ccipId: 0,
         active: true,
-        protocolMultisig: '0x38F8e3aF2F385B871011CDdFE16099e64846C420'.toLowerCase(),
+        protocolMultisig: '0x0127164f81fc6Aa5391fC78FC4Dca904fb369980'.toLowerCase(),
     },
     avalanche: {
         name: 'Avalanche',
@@ -1593,7 +1593,7 @@ exports.networks = {
         ccipEndpoint: '0x27F39D0af3303703750D4001fCc1844c6491563c'.toLowerCase(),
         ccipId: '64335005675654153810',
         active: true,
-        protocolMultisig: '0x569FcF96b09d228918721E33D46C6ca58302B247'.toLowerCase(),
+        protocolMultisig: '0x4CeDF51096E4cfA89E7a611DD156Ec98D0fE5AAF'.toLowerCase(),
     },
     polygon: {
         name: 'Polygon',
@@ -1612,7 +1612,7 @@ exports.networks = {
         ccipEndpoint: '0x3C3D92629A02a8D95D5CB9650fe49C3544f69B43'.toLowerCase(),
         ccipId: '4051577828743386545',
         active: true,
-        protocolMultisig: '0xCD2Ec32814f28622533ffcc9131F0D7B2c2CF038'.toLowerCase(),
+        protocolMultisig: '0x2907460B5E65ecaA733Af19b3A037aB177540456'.toLowerCase(),
     },
     fantom: {
         name: 'Fantom',
@@ -1650,7 +1650,7 @@ exports.networks = {
         ccipEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
         ccipId: 0,
         active: true,
-        protocolMultisig: '0x360D1B8c803374aa64E6efc8CFb069993aDF7F11'.toLowerCase(),
+        protocolMultisig: '0xC903A55a4C276a15E797951436777c57341C82d4'.toLowerCase(),
     },
     optimism: {
         name: 'Optimism',
@@ -1669,7 +1669,7 @@ exports.networks = {
         ccipEndpoint: '0x261c05167db67B2b619f9d312e0753f3721ad6E8'.toLowerCase(),
         ccipId: '3734403246176062136',
         active: true,
-        protocolMultisig: '0xa2D6193763A9B327Db7c74C766713927745f2a4c'.toLowerCase(),
+        protocolMultisig: '0x2872509C9E8452230c47a1b2fc8305f78983bDAb'.toLowerCase(),
     },
     gnosis: {
         name: 'Gnosis Chain',
@@ -2942,7 +2942,7 @@ exports.networks = {
         ccipEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
         ccipId: 0,
         active: true,
-        protocolMultisig: undefined,
+        protocolMultisig: '0x1e3eB22b68919Bf22C220B1f51B7d00beB6B2771'.toLowerCase(),
     },
     zora: {
         name: 'Zora',
@@ -2980,7 +2980,7 @@ exports.networks = {
         ccipEndpoint: '0x0000000000000000000000000000000000000000'.toLowerCase(),
         ccipId: 0,
         active: true,
-        protocolMultisig: undefined,
+        protocolMultisig: '0x45E6ca6bd2F10c44B00C957A65dAb568EE7d2378'.toLowerCase(),
     },
 };
 //# sourceMappingURL=networks.js.map
